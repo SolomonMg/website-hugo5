@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: ''
+    twitter: 'SolomonMg'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-27273977-1'
     baidu_tongji: ''
   verification:
     google: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '©2023 Sol Messing. This work is licensed under XX'
     license:
       enable: true
       allow_derivatives: false

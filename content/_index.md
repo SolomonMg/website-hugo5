@@ -117,6 +117,7 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
+
   - block: contact
     id: contact
     content:
@@ -127,8 +128,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: test@example.org
       appointment_url: 'https://calendly.com/solmg/'
-      
-       address:
+      address:
         street: 450 Serra Mall
         city: Stanford
         region: CA
@@ -138,7 +138,7 @@ sections:
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00' -->
+        - 'Wednesday 09:00 to 10:00' 
         
       contact_links:
         - icon: twitter

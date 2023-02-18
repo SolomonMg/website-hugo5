@@ -90,5 +90,3 @@ My most widely cited work is from my dissertation, which identifies the critical
 
 Accidentally fell into data science in 2006 when my team couldn't get budget for Stata and so got paid for 2 years to learn R. 
  -->
-
-{style="text-align: justify;"}

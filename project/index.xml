@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Sol Messing</title><link>https://solmessing.netlify.app/project/</link><atom:link href="https://solmessing.netlify.app/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2020 22:48:29 -0500</lastBuildDate><image><url>https://solmessing.netlify.app/media/icon_huedd5de82286bc1d0a1509b535f624c76_25974_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://solmessing.netlify.app/project/</link></image><item><title>Projecting Confidence</title><link>https://solmessing.netlify.app/project/projecting_confidence/</link><pubDate>Mon, 18 May 2020 22:48:29 -0500</pubDate><guid>https://solmessing.netlify.app/project/projecting_confidence/</guid><description>&lt;p>Inspired by Donald Trump&amp;rsquo;s surprise victory over Hillary Clinton in the 2016 general election, &lt;a href="https://www.dartmouth.edu/~seanjwestwood/" target="_blank" rel="noopener">Sean Westwood&lt;/a>, &lt;a href="http://ylelkes.com/" target="_blank" rel="noopener">Yphtach Lelkes&lt;/a> and I set out to interrogate the question of whether elecion forecasts&amp;mdash;particularly probablistic forecasts&amp;mdash;might create a sense of inevitability, and ultimately lead people to stay home on election day.&lt;/p>
+&lt;p>Clinton herself was quoted in &lt;a href="http://nymag.com/daily/intelligencer/2017/05/hillary-clinton-life-after-election.html?mid=nymag_press" target="_blank" rel="noopener">New York Magazine&lt;/a> after the election:&lt;/p>
+&lt;blockquote>
+&lt;p>I had people literally seeking absolution&amp;hellip; ‘&lt;em>I’m so sorry I didn’t vote. I didn’t think you needed me.&lt;/em>’ I don’t know how we’ll ever calculate how many people thought it was in the bag, because the percentages kept being thrown at people — ‘&lt;em>Oh, she has an 88 percent chance to win!&lt;/em>’&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Is it plausible that forecasting could have affected the election?&lt;/strong>&lt;/p>
+&lt;p>For this phenomena to affect an election, it must:&lt;/p>
+&lt;ol>
+&lt;li>be visible in the media so it reaches potential voters,&lt;/li>
+&lt;li>depress turnout, and&lt;/li>
+&lt;li>affect one side more than the other. In the case of 2016, that means affecting Clinton&amp;rsquo;s supporters (and/or Clinton campaigners) more than Trump&amp;rsquo;s.&lt;/li>
+&lt;/ol>
+&lt;p>We found evidence for all of the above. First, witness the rise of forecasts since 2008, when FiveThirtyEight first came on the scene:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/forecast_google_news.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>What&amp;rsquo;s more, there is good evidence that one side will be more affected. Our research (see results below) suggests that &lt;em>candidate who is ahead in the polls is more affected&lt;/em> by probablistic forecasts. In 2016, that was Hillary.&lt;/p>
+&lt;p>And irrespective of 2016, it&amp;rsquo;s outlets with a &lt;em>left-leaning audience&lt;/em> that publish and cover election forecasts. The websites that present their poll aggregation results in terms of probabilities have left-leaning (negative) social media audiences&amp;mdash;only realclearpolitics.com, which doesn’t emphasize win-probabilities, has a conservative audience:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/bma_science_alignment.png" alt="half" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>These data come from the average self-reported ideology of people who share links to various sites hosting poll-aggregators on Facebook, data that come from &lt;a href="http://science.sciencemag.org/content/early/2015/05/06/science.aaa1160.full" target="_blank" rel="noopener">this paper&lt;/a>’s &lt;a href="http://dx.doi.org/10.7910/DVN/LDJ7MS" target="_blank" rel="noopener">replication materials&lt;/a>.&lt;/p>
+&lt;p>When you look at the balance of coverage of probabilistic forecasts on major television broadcasts, there is more coverage on MSNBC, which has a more liberal audience.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/msnbc_mentions.png" alt="half" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>How much influence do forecasters really have?&lt;/strong>&lt;/p>
+&lt;p>It&amp;rsquo;s increadibly difficult to tease out when one media outlet is influencing another. However, a freak event in 2018 allows us to get some traction on this question, and suggests that FiveThirtyEight&amp;rsquo;s 2018 coverage was highly influential.&lt;/p>
+&lt;p>After FiveThirtyEight&amp;rsquo;s real-time forecast suddenely moved the the GOP&amp;rsquo;s odds of taking the House from single digits to about 60% at around 8:15PM, PredictIt&amp;rsquo;s odds on the GOP rose above 50-50, &amp;amp; &lt;em>U.S. government bond yields rose 2-4 basis points.&lt;/em> FiveThirtyEight then altered it&amp;rsquo;s prediction system and the markets calmed down.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/538-markets.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This spike seems to have occurred because a number of big, &lt;a href="https://fivethirtyeight.com/live-blog/2018-election-results-coverage/#3495" target="_blank" rel="noopener">Republican-dominated districts started reporting returns before those that went toward Democrats&lt;/a> and because it was making inferences from partial vote counts:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/538realtimepolling.jpg" alt="half" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This was &lt;a href="https://ftalphaville.ft.com/2018/11/07/1541617447000/Debt-markets-let-us-know-what-they-think-about-Republicans-last-night/" target="_blank" rel="noopener">first reported by Colby Smith &amp;amp; Brian Greeley of FT.com&lt;/a>. They report that because markets expected to see more inflation under a Republican House (high spending, low taxes) the U.S. Bond yield rose.&lt;/p>
+&lt;p>Was this just a correlation? Possibly, but there was pretty much nothing else happening in the U.S., and it was like 1 am in Europe, as pointed out in the FT.com piece above.&lt;/p>
+&lt;p>Josh Tucker suggested that &lt;a href="http://themonkeycage.org/2012/10/convergence-between-polls-and-prediction-markets-in-us-presidential-election/" target="_blank" rel="noopener">538 might be driving prediction markets&lt;/a> back in 2012 in a Monkey Cage blogpost.&lt;/p>
+&lt;p>&lt;strong>Our research on forecasting and perception&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://solmessing.netlify.app/pdf/aggregator.pdf">Our research&lt;/a> shows that probablistic election forecasts make a race look less competitive. Participants in a national probability survey-experiment were substantially more certain that one candidate would win a hypothetical race after seeing a probablistic forecast than after seeing the equivalent vote share estimate and margin of error. This is a big effect&amp;mdash;those are confidence intervals not standard errors, with p-values below $$10^{-11}$$.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/certaintyc.png" alt="normal" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Why do people do this?&lt;/strong>&lt;/p>
+&lt;p>More research is needed here but we do have some leads. First, small differences in the election metric most familiar to the public—vote share estimates—generally correspond to very large differences in the probability of a candidate’s chance of victory.&lt;/p>
+&lt;p>Andy Gelman referenced this in passing in a &lt;a href="https://andrewgelman.com/2012/10/22/is-it-meaningful-to-talk-about-a-probability-of-65-7-that-obama-will-win-the-election/" target="_blank" rel="noopener">2012 blogpost&lt;/a> questioning the decimal precision (0.1 percent) that 538 used to communicate its forecast on its website:&lt;/p>
+&lt;blockquote>
+&lt;p>That’s right: a change in 0.1 of win probability corresponds to a 0.004 percentage point share of the two-party vote. I can’t see that it can possibly make sense to imagine an election forecast with that level of precision&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;p>Second, people sometimes confuse probabilistic forecasts with vote share projections, and incorrectly conclude that a candidate is projected to say win 85% percent of the vote, rather than to having an 85% chance of winning the election. About 1 in 10 peope did this in our experiment.&lt;/p>
+&lt;p>As &lt;a href="https://twitter.com/jbenton/status/1059898288139354112" target="_blank" rel="noopener">Joshua Benton pointed out in a tweet&lt;/a>, TalkingPointsMemo.com &lt;a href="https://talkingpointsmemo.com/news/issa-calls-race-early" target="_blank" rel="noopener">made this very mistake&lt;/a>:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/TPMCorrection.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Finally, people tend to think in qualitative terms about the probability of events {%cite sunstein2002probability%}, {%cite keren1991calibration%}. An 85% likelihood that something will happen means it&amp;rsquo;s going to happen. These studies may help explain why after the 2016 election, so many criticized forecasters for “getting it wrong” (see &lt;a href="https://www.nytimes.com/2016/11/10/technology/the-data-said-clinton-would-win-why-you-shouldnt-have-believed-it.html" target="_blank" rel="noopener">this&lt;/a> and &lt;a href="http://www.slate.com/articles/news_and_politics/politics/2016/01/nate_silver_said_donald_trump_had_no_shot_where_did_he_go_wrong.html" target="_blank" rel="noopener">this&lt;/a>).&lt;/p>
+&lt;p>&lt;strong>What about voting?&lt;/strong>&lt;/p>
+&lt;p>Perhaps most critically, we show that probabilistic forecasts showing more of a blowout can lower voting. In Study 1, we find limited evidence of this based on self reports. In Study 2, we show that when participants are faced with incentives designed to simulate real world voting, they are less likely to vote when probabilistic forecasts show higher odds of one candidate winning. Yet they are not responsive to changes in vote share.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/FT_18.01.03_prob_vote.png" alt="normal" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Could this actually affect real world voting?&lt;/strong>&lt;/p>
+&lt;p>Consider 2016&amp;mdash;an unusually high number of Democrats thought the leading candidate would &lt;em>win by quite a bit&lt;/em>:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/anes_turnout_closerace_mc_tall.png" alt="normal" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>And people who say the leading candidate will &lt;em>win by quite a bit&lt;/em> in pre-election polling are about three percentage points less likely to say they voted after the election than people who say it’s a close race. That’s after controlling for election year, prior turnout, and party identification.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/closerace_vote_anes.png" alt="normal" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The data here are from the &lt;a href="https://electionstudies.org" target="_blank" rel="noopener">American National Election Study (ANES)&lt;/a> and go back to 1952.&lt;/p>
+&lt;p>Past social science research also provides evidence that the perception of a close race boosts turnout. Some of the best evidence comes from work that analyzes the effects of releasing exit polling results before voting ends, which clearly removes uncertainty. Work examining the effects of East Coast television networks’ “early calls” for one candidate or another on West Coast turnout generally find small but substantively meaningful effects, despite the fact that these calls occur &lt;a href="https://repository.upenn.edu/cgi/viewcontent.cgi?article=1018&amp;amp;context=asc_papers" target="_blank" rel="noopener">late on election day&lt;/a>, see also &lt;a href="https://academic.oup.com/poq/article-pdf/50/3/331/5135691/50-3-331.pdf?casa_token=Ize8hznQUHAAAAAA:6tMTMfvGSN4tFXyyXbwkew4E47cLlCG8FegNu4ulkzqHE3hJZMzfurBb-Y1GWQcvLbZTYUysOMebxg" target="_blank" rel="noopener">this&lt;/a>. Similar work exploiting voting reform as a natural experiment &lt;a href="https://eprints.qut.edu.au/83681/1/1-s2.0-S0014292115000483-main.pdf" target="_blank" rel="noopener">shows a full 11 percentage point decrease&lt;/a> in turnout in the French overseas territories that voted after exit polls were released. These designs are not confounded with the tendency for campaigns to invest more in campaigns in competitive races.&lt;/p>
+&lt;p>Researchers consistently find robust correlations between tighter elections and higher turnout &lt;a href="https://www.sciencedirect.com/science/article/abs/pii/S0261379405000910" target="_blank" rel="noopener">see this&lt;/a>; and &lt;a href="https://biopen.bi.no/bi-xmlui/bitstream/handle/11250/2389104/Geys_ES%202016.pdf?sequence=5&amp;amp;isAllowed=y" target="_blank" rel="noopener">this&lt;/a> for reviews]. Furthermore, there is evidence from statistical models that &lt;a href="https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1052&amp;amp;context=poliscifacpub" target="_blank" rel="noopener">prior election returns also explain turnout&lt;/a> above and beyond campaign spending, particularly when good polling data is unavailable.&lt;/p>
+&lt;p>Field experiments provide additional evidence that perceptions of higher electoral competition increases turnout. This work finds substantive effects on turnout when polling results showing a closer race are delivered &lt;a href="%28https://huber.research.yale.edu/materials/67_paper.pdf%29">via telephone&lt;/a> [among those who were reached] but null results when relying on &lt;a href="https://www.nber.org/papers/w23071" target="_blank" rel="noopener">postcards&lt;/a> to deliver closeness messages. Finally, one study conducted in the weeks leading up to the 2012 presidential election found higher rates of self-reported, post-election turnout when delivering ostensible polling results showing Obama neck-and-neck with Romney &lt;a href="http://www.aapor.org/AAPOR_Main/media/AnnualMeetingProceedings/2013/Session_C-5-1-Vannette.pdf" target="_blank" rel="noopener">which was not consistent with the extant polling data showing a comfortable Obama lead&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Could this affect politicians as well?&lt;/strong>&lt;/p>
+&lt;p>Candidates’ perceptions of the closeness of an election can affect campaigning and representation {%cite enos2015campaign%}, {%cite Mutz:1997wy%}.&lt;/p>
+&lt;p>These perceptions can also shape policy decisions—-for example, prior to the 2016 election, the Obama administration’s confidence in a Clinton victory was reportedly a factor in the muted response to &lt;a href="https://www.washingtonpost.com/graphics/2017/world/national-security/obama-putin-election-hacking/" target="_blank" rel="noopener">Russian intervention in the election&lt;/a>.&lt;/p>
+&lt;p>And former FBI Director James Comey, because of his confidence in a Clinton victory, said he felt that it was his duty to write a letter to Congress on October 28 saying he was reopening the investigation into her emails. Comey explained his actions based on his certain belief in a Clinton win: &amp;lsquo;&amp;rsquo;[S]he&amp;rsquo;s gonna be elected president, and if I hide this from the American people, she&amp;rsquo;ll be illegitimate the moment she&amp;rsquo;s elected, the moment this comes out&amp;rsquo;&amp;rsquo; {%cite keneally_2018%}. Nate Silver at one point said &amp;lsquo;&amp;rsquo;&lt;a href="https://fivethirtyeight.com/features/the-comey-letter-probably-cost-clinton-the-election/" target="_blank" rel="noopener">the Comey letter probably cost Clinton the Election&lt;/a>.&amp;rsquo;&amp;rsquo;&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://solmessing.netlify.app/img/ComeyABCCNNresize.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Media coverage&lt;/strong>
+&lt;a href="https://www.washingtonpost.com/news/politics/wp/2018/02/06/clintons-achilles-heel-in-2016-may-have-been-overconfidence/?utm_term=.619133ce9312" target="_blank" rel="noopener">Washington Post&lt;/a>, &lt;a href="https://fivethirtyeight.com/features/politics-podcast-whats-so-wrong-with-nancy-pelosi/" target="_blank" rel="noopener">FiveThirthyEight’s Politics Podcast&lt;/a>, &lt;a href="http://nymag.com/intelligencer/2018/02/americans-dont-understand-election-probabilities.html?gtm=bottom&amp;amp;gtm=bottom" target="_blank" rel="noopener">New York Magazine&lt;/a>, &lt;a href="https://politicalwire.com/2018/02/06/election-forecasts-lower-voter-turnout/" target="_blank" rel="noopener">Political Wire&lt;/a>.&lt;/p></description></item><item><title>Facebook Condor URLs Data Release</title><link>https://solmessing.netlify.app/project/condor_data_release/</link><pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate><guid>https://solmessing.netlify.app/project/condor_data_release/</guid><description>&lt;p>On January 17, 2020 my team at Facebook launched one of the largest social science data sets ever constructed. It’s meant to facilitate research on misinformation from across the web, shared and spread on Facebook.&lt;/p>
+&lt;p>&lt;a href="https://solmessing.netlify.app/pdf/Facebook_DP_URLs_Dataset.pdf">Full details on the release here&lt;/a>.&lt;/p>
+&lt;p>We also released the &lt;a href="https://github.com/facebookresearch/URL-Sanitization" target="_blank" rel="noopener">URL santization framework&lt;/a>, which I implemented (and which my SWE colleagues refactored).&lt;/p>
+&lt;p>What makes this data release unprecedented is that it contains &lt;em>exposure data&lt;/em> describing external links that billions of users saw and read while using the site.&lt;/p>
+&lt;p>The data set goes beyond URL-level data, breaking down exposure and interactions by month, country, age, gender, and in the U.S., political page affinity (see Barbera et al 2015).&lt;/p>
+&lt;p>The data contain two tables: (1) a “URL attributes” table describing the 38 million URLs in the data set, including how many times users tagged those posts as containing misinformation, harassment, etc. and (2) a “breakdown” table, which aggregates counts of actions taken on urls, broken out by user demographics and URL attributes.&lt;/p>
+&lt;p>The &lt;a href="https://solmessing.netlify.app/pdf/Facebook_DP_URLs_Dataset.pdf">technical documentation&lt;/a> reflects more work than most papers I&amp;rsquo;ve written: . This list of authors reflects the scale of this massive team effort, and that&amp;rsquo;s before you include increadibly helpful advice we got from a number of computer scientists in the academy listed in the acknowledgements.&lt;/p>
+&lt;p>Perhaps most importantly, this release provides guarantees about anonymity in an incredibly rigorous way&amp;ndash;action-level differential privacy, while preserving more underlying signal in the data.&lt;/p></description></item><item><title>Impression of Influence</title><link>https://solmessing.netlify.app/project/impression_of_influence/</link><pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate><guid>https://solmessing.netlify.app/project/impression_of_influence/</guid><description>&lt;p>&lt;a href="https://solmessing.netlify.app/pdf/GrimmerWestwoodMessingBook.pdf">&lt;strong>The Impression of Influence: Legislator Communication, Representation, and Democratic Accountability&lt;/strong>&lt;/a>
+&lt;strong>Princeton University Press, 2015&lt;/strong>. With Justin Grimmer and Sean
+Westwood&lt;/p>
+&lt;ul>
+&lt;li>Media: &lt;a href="http://www.mischiefsoffaction.com/2015/01/its-frequency-not-size-compromise.html" target="_blank" rel="noopener">Mischiefs of Faction&lt;/a>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -8,7 +8,7 @@ last_name: Messing
 
 # Status emoji
 status:
-  icon: ⛏️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -74,6 +74,7 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+{style="text-align: justify;"}
 
 I like big, policy-relevant social science projects. I've spent much of my career leading technical teams in industry, while managing to conduct scholarly research and participate in the public sphere -- [media fun/press clips here](#media). During the 2020 election cycle, I was Chief Scientist at [ACRONYM](https://www.nytimes.com/2020/04/28/us/politics/Facebook-Acronym-advertising.html), where my team drove investment by (correctly) [modeling the electoral importance of Georgia](/post/what-the-polls-got-wrong-in-2020/), oversaw a meta-analytic [ML system to generate estimates of persuasive messaging impact](https://towardsdatascience.com/the-haha-ratio-learning-from-facebooks-emoji-reactions-to-predict-persuasion-effects-of-fcd9180ea5dd) leveraging hundreds of past experiments and online behavioral data, and conducted the largest ever [digital advertsing field experiment in politics](/publication/aggarwal-2023-2-million-experiment/).
 <!-- --an amazing collaboration with [Minali Aggarwal](https://www.linkedin.com/in/minali-aggarwal/), [Sylvan Zheng](https://sylvan.fish/), [Dan Fankowski](https://medium.com/@dfrankow) and [James Barnes](http://www.jameslbarnes.com/)-->

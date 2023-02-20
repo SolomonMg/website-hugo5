@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Run this script to deploy the app to Github Pages
+
+# Exit if any subcommand fails
+set -e
+
+echo "Deploying..."
+
+
+# Run hugo: 
+hugo
+
+# now commit to public, which will publish website
+cd public
+git add .
+git commit -m "Build website"
+git push origin master
+cd ..
+
+echo "Deployed successfully!"
+
+exit 0

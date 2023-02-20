@@ -28,9 +28,9 @@ bio: Sol Messing is Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
-  - Policy-relevant Social Science
-  - Human Computer Interaction
-  - Artificial Intelligence
+  - Technology and social signals - particularly polarization & persuasion
+  - Elite communication & new technologies
+  - Machine learning (& "Artificial Intelligence")
 
 # Education to show in About widget
 education:

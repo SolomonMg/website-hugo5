@@ -75,4 +75,6 @@ email: ''
 highlight_name: true
 ---
 
-I like big, policy-relevant social science projects. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. Full [bio below](#mybio). 
+I like big, policy-relevant social science projects. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. 
+
+Full [bio below](#mybio). 

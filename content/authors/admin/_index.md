@@ -30,7 +30,7 @@ bio: Sol Messing is Research Associate Professor at New York University
 interests:
   - Technology and social signals - particularly polarization & persuasion
   - Elite communication & new technologies
-  - Machine learning (LLMs, Computer Vision, Artificial Intelligence)
+  - Machine learning (LLMs, computer vision, artificial intelligence)
 
 # Education to show in About widget
 education:
@@ -75,4 +75,4 @@ email: ''
 highlight_name: true
 ---
 
-I like big, policy-relevant social science projects. I've spent much of my career leading technical teams in industry, while managing to conduct scholarly research and participate in the public sphere. Full [bio below](#mybio). 
+I like big, policy-relevant social science projects. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. Full [bio below](#mybio). 

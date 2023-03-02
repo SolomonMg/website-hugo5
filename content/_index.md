@@ -177,14 +177,14 @@ sections:
         - [When it comes to policy, moderate politicians keep their mouths shut](https://news.stanford.edu/news/2012/september/politics-policy-pork-092412.html). **Stanford News** 
 
         ## Tweet threads I like
-        {{< tweet 1327649905234616321 >}}
-        {{< tweet 1061703412100816896 >}}
-        {{< tweet 841318057083572224 >}}
-        {{< tweet 1311649795258421252 >}}
-        {{< tweet 1277226059646337025 >}}
-        {{< tweet 1017077780800995328 >}}
-        {{< tweet 1321975224385052674 >}}
-        {{< tweet 1164927631957143554 >}}
+        {{< tweet id="1327649905234616321" user="SolomonMg" >}}
+        {{< tweet id="1061703412100816896" user="SolomonMg" >}}
+        {{< tweet id="841318057083572224" user="SolomonMg" >}}
+        {{< tweet id="1311649795258421252" user="SolomonMg" >}}
+        {{< tweet id="1277226059646337025" user="SolomonMg" >}}
+        {{< tweet id="1017077780800995328" user="SolomonMg" >}}
+        {{< tweet id="1321975224385052674" user="SolomonMg" >}}
+        {{< tweet id="1164927631957143554" user="SolomonMg" >}}
 
 
 

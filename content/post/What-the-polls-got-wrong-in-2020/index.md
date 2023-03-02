@@ -38,13 +38,13 @@ But I also want to start to ask questions about what happened this time around. 
 
 But the second Miami-Dade reported results from the 2020 election, we knew something was probably wrong with the 2020 polls.
 
-{{< tweet 1325786708022079488 >}}
+{{< tweet id="1325786708022079488" user="stefanjwojcik" >}}
 
 As Stefan notes (we worked together at Pew Research Center's Data Labs), the error seems slightly lower in key battleground states, though the polls missed big in WI, perhaps in part due to its horrifically bad voter file data.
 
 Unlike 2016, both state and national polls appeared to underestimate Trump's support, as this early (Nov 7) analysis from [Tom Wood](https://twitter.com/thomasjwood) shows: 
 
-{{< tweet 1325199348553162752 >}}
+{{< tweet id="1325199348553162752" user="thomasjwood" >}}
 
 <!-- [![normal](/img/TWpollingerror.jpeg)](https://twitter.com/thomasjwood/status/1325199348553162752) -->
 
@@ -62,14 +62,14 @@ What are these projections? I simply took the last two state-level Presidential 
 
 Informing this approach is work from [Yair Ghitza](https://catalist.us/yair-ghitza-phd/) describing what went wrong in 2016, which suggested polarization and other state-level trends would continue, in addition to national trends or "uniform swing." 
 
-{{< tweet 1325564912798752773 >}}
+{{< tweet id="1325564912798752773" user="SolomonMg" >}}
 	
 
 I should note that this may only have worked because of something peculiar about this election cycle--I haven't gone an back-tested this approach or anything like that. 
 
 Seems I was not the only one who noticed this kind of pattern:
 
-{{< tweet 1325522770890027008 >}}
+{{< tweet id="1325522770890027008" user="SolomonMg" >}}
 
 ## What went wrong: The Usual Suspects
 
@@ -93,11 +93,11 @@ What's more, pollsters adjusted only for college/non-college, which may not have
 
 Another important point from Peter Suzman is that likely voter screens could have inflated estimates of Dem turnout if they asked if respondents had already voted---it was Democrats who voted early. 
 
-{{< tweet 1325545770230161408 >}}
+{{< tweet id="1325545770230161408" user="Biomaven" >}}
 
 However, that would only explain error in likely voter models, not polling based on registered voters, which also seemed to miss big this cycle, as I pointed out: 
 
-{{< tweet 1325605403636486146 >}}
+{{< tweet id="1325605403636486146" user="SolomonMg" >}}
 
 
 **COVID-19**: I wrote about [this back in June](https://solomonmg.github.io/post/trumps-chances-are-better-than-they-look/). It's possible that COVID-19 made lines long and kept people home in urban areas and non-white communities. Yes we had record turnout but all it takes is a few percent of people who encounter a bit of voting friction, who fail to register in person, don’t get in person canvassing/gotv contact, don’t vote by mail early, and/or don’t vote in vote in person. 
@@ -110,7 +110,7 @@ Without Dems doing the usual in-person registration drives, organizing, canvassi
 
 And indeed the data show just that. [NPR has a nice visualization of this](https://www.npr.org/sections/health-shots/2020/11/06/930897912/many-places-hard-hit-by-covid-19-leaned-more-toward-trump-in-2020-than-2016): 
 
-{{< tweet 1326348370869415937 >}}
+{{< tweet id="1326348370869415937" user="SolomonMg" >}}
 
 Another possibility is that shutdowns, school closings, and job losses stoked anger & resentment in centrist & right-leaning voters. I remember watching a local FB group quickly organize around the issue of school-openings and eventually morph into a hub for protests.
 
@@ -125,7 +125,7 @@ That seems to stand in sharp contrast to speculation that Trump would be hit har
 
 **Shy Trump voters**: There's a hypothesis out there that people are embarrassed to admit that they would vote for Trump. The evidence for this is limited--Kyle Dropp and co at Morning Consult did some experimental work on this and found that people were slightly more likely [in the 2016 primaries (but NOT the General and not in 2020)](https://morningconsult.com/form/shy-trump-2020/) to say that they would vote for Trump when answering via online survey compared with speaking with a live pollster over the phone. But they've done many follow-on surveys since and the pattern doesn't persist.  
 
-{{< tweet 1324948324718436352 >}}
+{{< tweet id="1324948324718436352" user="NateSilver538" >}}
 
 I am skeptical that this could be as much of a factor as some on social media seem to be claiming, but it's hard to get good data to answer this question and acknowledge that absence of evidence is not evidence of absence. A number of commentators have claimed that since the polls underestimated support for all Republicans, this is an unlikely explanation. 
 

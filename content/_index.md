@@ -222,7 +222,7 @@ sections:
       text: |-
         Contact me via the form below or at firstname.lastname at gmail dot com. 
       # Contact (add or remove contact options as necessary)
-      appointment_url: 'https://calendly.com/solmg/'
+      # appointment_url: 'https://calendly.com/solmg/'
       contact_links:
         - icon: twitter
           icon_pack: fab

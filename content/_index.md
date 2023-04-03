@@ -74,6 +74,8 @@ sections:
       text: |-
         ## Radio/Podcasts/Video
 
+        - [What can we learn from a $9 million social media advertising experiment? Differential Turnout and Early Voting](https://moderated-content.simplecast.com/episodes/mc-weekly-update-1-16-looking-at-the-evidence) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
+
         - [Should We Stop Paying Attention To Election Forecasts?](https://www.sciencefriday.com/segments/election-forecasts/) **NPR's Science Friday, hosted by Ira Flatow & Elah Feder** 
 
         - [Data Science across Academia, Industry, and Progressive Campaigns, with Dr. Solomon Messing](https://socialmediaandpolitics.simplecast.com/episodes/data-science-academia-tech-industry-progressive-campaigns-solomon-messing). **Social Media and Politics Podcast, hosted by Michael Bossetta** 

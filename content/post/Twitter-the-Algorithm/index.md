@@ -94,8 +94,8 @@ Of course, what happens in the first few minutes when a tweet is posted deeply s
 
 [And the way this is implemented in practice is that the model handles all cases, but as you get more and more real time data on a tweet, those real time features dominate everything else and push those probabilities close to 1, see [discussion here](https://twitter.com/SolomonMg/status/1642154005588504577?s=20).] 
 
-Now I should point out that there are some spammy accounts claiming to have found ranking parameters in the code. They’re wrong, those seem to be for real time search only, which is why they have “lucene" parameters and are in a file called ``RelevanceSearchUtil.scala.'' [Lucene](https://lucene.apache.org) is an open source search tool. 
+Now I should point out that there are some spammy accounts claiming to have found ranking parameters in the code. They’re wrong, those are used to [retrieve tweets from your network for candidate generation only](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/README.md). [Lucene](https://lucene.apache.org) is an open source search tool. 
 
 {{< tweet id="1642563414970060800" user="SolomonMg" >}}
 
-I should point out however, that some of the ``Earlybird'' code was at one point used in timeline ranking, and it appears that [it may be used in cr-mixer](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/server/src/main/scala/com/twitter/cr_mixer/similarity_engine/EarlybirdTensorflowBasedSimilarityEngine.scala), which is used in candidate generation.  
+I should point out however, that some of the ``Earlybird'' code was at one point used in timeline ranking, and it appears that [it may be used in cr-mixer](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/server/src/main/scala/com/twitter/cr_mixer/similarity_engine/EarlybirdTensorflowBasedSimilarityEngine.scala), which is used in candidate generation for [out-of-network tweets](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/README.md).  

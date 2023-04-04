@@ -106,3 +106,12 @@ Twitter seems to have made some of the systems public underlying candidate gener
 
 BTW, I’d like to give a shout out to [Vicki Boykis](https://twitter.com/vboykis), and [Igor Brigadir](https://twitter.com/igorbrigadir) who are [doing amazing work to map out the codebase](https://github.com/igorbrigadir/awesome-twitter-algo) and unearth exactly what’s missing and what’s not. 
 
+**Trust and Safety**
+
+A lot of the code related to Trust and Safety is missing, presumably to prevent bad actors from learning too much and gaming those systems. However, there do seem to be some specifics about the kinds of things twitter considers borderline or violating that I don’t think were previously public.There are a bunch of safety parameters in the code, some of which are in Twitter’s policy documents, but some are not. 
+
+There are entries like “HighCryptospamScore” that [appear in the code](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/visibilitylib/src/main/scala/com/twitter/visibility/rules/DownrankingRules.scala), which may give scammers hints about how to craft tweets to get around detection systems.  The same is true for [code that contains links](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/visibilitylib/src/main/scala/com/twitter/visibility/models/TweetSafetyLabel.scala#L115) to “UntrustedUrl,” “TweetContainsHatefulConductSlur” for low, medium and high severity. 
+
+There’s also a reference to a “Do Not Amplify” [parameter in the code](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/visibilitylib/src/main/scala/com/twitter/visibility/models/SpaceSafetyLabelType.scala#L26), which was discussed in the twitter files but seems not to be publicly documented in it’s policies. There are entries like “AgathaSpam,” which refers to a propriety embedding used across the codebase. Twitter also has a bunch of visibility rules hardcoded in Scala that might be useful to bad actors trying to game the system, outlining what rules are in play for all tweets, new users, user mentions, liked tweets, realtime spam detection, etc. Finally, some of the consequences for those violations are [spelled out in Scala](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/visibilitylib/src/main/scala/com/twitter/visibility/rules/Action.scala) as well. 
+
+Of course, it's really hard to know with certainly that any of this wasn't in public somehow before this release. 

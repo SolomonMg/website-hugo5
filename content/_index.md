@@ -74,6 +74,8 @@ sections:
       text: |-
         ## Radio/Podcasts/Video
 
+        - [Behold, The Algorithm (or, parts of it, sort of)](https://moderated-content.simplecast.com/episodes/mc-weekly-update-4-3-behold-the-algorithm-or-parts-of-it-sort-of) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
+
         - [What can we learn from a $9 million social media advertising experiment? Differential Turnout and Early Voting](https://moderated-content.simplecast.com/episodes/mc-weekly-update-1-16-looking-at-the-evidence) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
 
         - [Should We Stop Paying Attention To Election Forecasts?](https://www.sciencefriday.com/segments/election-forecasts/) **NPR's Science Friday, hosted by Ira Flatow & Elah Feder** 

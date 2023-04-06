@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "What can we learn from `The Algorithm,' Twitter's partial open-sourcing of it's feed-ranking recommendation system?"
+title: "What can we learn from 'The Algorithm,' Twitter's partial open-sourcing of it's feed-ranking recommendation system?"
 subtitle: ""
 summary: ""
 authors: [Sol Messing]

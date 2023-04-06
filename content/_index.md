@@ -78,6 +78,8 @@ sections:
 
         - [What can we learn from a $9 million social media advertising experiment? Differential Turnout and Early Voting](https://moderated-content.simplecast.com/episodes/mc-weekly-update-1-16-looking-at-the-evidence) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
 
+        - [CITP: Bringing Transparency to Digital Political Campaigns Symposium](https://mediacentral.princeton.edu/media/Bringing+Transparency+to+Digital+Political+Campaigns+Symposium+AM+Session/1_0ta6wiz0) **Center for Information Technology Policy (CITP) and the Center for the Study of Democratic Politics (CSDP)** 
+
         - [Should We Stop Paying Attention To Election Forecasts?](https://www.sciencefriday.com/segments/election-forecasts/) **NPR's Science Friday, hosted by Ira Flatow & Elah Feder** 
 
         - [Data Science across Academia, Industry, and Progressive Campaigns, with Dr. Solomon Messing](https://socialmediaandpolitics.simplecast.com/episodes/data-science-academia-tech-industry-progressive-campaigns-solomon-messing). **Social Media and Politics Podcast, hosted by Michael Bossetta** 

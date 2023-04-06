@@ -28,10 +28,12 @@ bio: Sol Messing is Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
-  - Technology and social signals - particularly polarization & persuasion
-  - Elite communication & new technologies
-  - Machine learning (LLMs, computer vision, artificial intelligence)
+  - Social media - [polarization & algorithmic bias](https://solomonmg.github.io/pdf/Science-2015-Bakshy-1130-2.pdf), [advertising & turnout](https://www.nature.com/articles/s41562-022-01487-4). 
+  - Social information - [election forecasts](https://www.journals.uchicago.edu/doi/abs/10.1086/708682), [social cues & media selectivity](https://journals.sagepub.com/doi/10.1177/0093650212466406), [image & stereotypes](https://pubmed.ncbi.nlm.nih.gov/27257306/)
+  - Representation - [Credit-claiming in Congress](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/how-words-and-money-cultivate-a-personal-vote-the-effect-of-legislator-credit-claiming-on-constituent-credit-allocation/7538BBE494CE31274DAE7F9F2E220F04) & [how new tech shapes discourse](https://www.pewresearch.org/politics/2017/02/23/partisan-conflict-and-congressional-outreach/)
+  - Applied machine learning - [large language models & ideology](), [ML & experiments](https://www.cambridge.org/core/journals/political-analysis/article/abs/estimating-heterogeneous-treatment-effects-and-the-effects-of-heterogeneous-treatments-with-ensemble-methods/C7E3EA00D0AD83429CBE73F4F0C6652C) 
 
+#[social news & civic engagement](https://www.dropbox.com/s/n0x4iepyj9pzwiw/CH7brief.pdf?raw=true), 
 # Education to show in About widget
 education:
   courses:
@@ -75,6 +77,6 @@ email: ''
 highlight_name: true
 ---
 
-I like big, policy-relevant social science projects. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. 
+I like big, policy-relevant social science projects related to emerging media & tech. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. 
 
 Full [bio below](#mybio). 

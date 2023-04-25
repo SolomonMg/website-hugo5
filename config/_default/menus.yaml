@@ -25,6 +25,9 @@ main:
   - name: "Tech Stack"
     url: "/techsetup/"
     weight: 70
+  - name: "Disclosures"
+    url: "/disclosures/"
+    weight: 75
   - name: Contact
     url: '#contact'
     weight: 80

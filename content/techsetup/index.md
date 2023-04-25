@@ -1,5 +1,5 @@
 ---
-subtitle: Things I tend to forget about ^^
+subtitle: Things I tend to forget about
 title: Tech Stack
 ---
 - [Best terminal (iterm 2) setup I've found yet](https://gist.github.com/kevin-smets/8568070)

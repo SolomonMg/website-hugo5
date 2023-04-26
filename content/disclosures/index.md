@@ -3,7 +3,7 @@ subtitle: Potentially competing interests
 title: Disclosures
 ---
 - SM is currently an employee of New York University.
-- SM was previously an employee of Twitter and held a significant financial interest (SFI, defined as holding more than $5,000 in stock). SM's employee equity was converted to cash following the conclusion of Twitter's sale to Elon Musk. SM was against the company's acquisition and asked to be included in the first round of layoffs. SM declined to accept severance compensation and did not sign the severance agreement, which included a restrictive non-disparagement clause.
+- SM was previously an employee of Twitter and held a significant financial interest (SFI, defined as holding more than $5,000 in stock). SM's employee equity was converted to cash following the conclusion of Twitter's sale to Elon Musk. SM was against the company's acquisition and asked to be included in the first round of layoffs. SM declined to accept severance compensation and did not sign the proposed severance agreement, which included a restrictive non-disparagement clause.
 - SM was previously an employee of Facebook (now Meta) and at various points in time held a SFI in the company. SM sold all employee equity grants (RSUs) shortly after leaving the company in both 2015 and 2020.
 - SM was previously an employee of Science Applications International Corporation and in the past held a SFI in the company.
 - SM was previously an employee of Pew Research Center.

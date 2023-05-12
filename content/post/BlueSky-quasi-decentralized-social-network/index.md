@@ -35,11 +35,11 @@ TL/DR Summary
 1. BlueSky has a chance to dethrone twitter right now, but that path is narrow. 
 2. Its exclusive invite only model means its user base is now small, elite, and homogenous with few bad actors. Almost everyone likes it. But the real test will be when it opens to the public. 
 3. It is designed for true account portability and in theory should prevent a single company from owning the entire network as it scales up. 
-4. However, it’s unclear if an ecosystem of small companies can do the job of content moderation at the same scale as a centralized social network. The same is true of running modern feed-ranking and follow-recommendation systems. 
+4. However, it’s unclear if an ecosystem of small companies can do the job of content moderation in the same ways that centralized social networks do. The same is true of running modern feed-ranking and follow-recommendation systems. 
 5. There will be growing pressure to make money using ads to cover costs as the network scales up, which will incentivize centralizing key data and resources, undermining the original model.
-6. However, account portability should force any centralized entity to be more responsive and innovative because there is no cost to move to another service provider. New entrants will need to invest a lot to develop a product and an ad business, but they are building on top of an existing user base, content engine and follow graph. 
+6. Future possibilities include: (1) BlueSky remains de-facto centralized, "in beta" until it can get composable moderation right, which turns out to be the foreseeable future; (2) big players (Google, Facebook) join the party and dominate the ecosystem; (3) small, unmoderated, ad-free apps proliferate and the network becomes overrun with spam, NSFW, hate, scams and gifts that come with a lack of moderation. 
 
-==============================================================
+***
 
 Pretty much everyone at Twitter---and especially Jack Dorsey---has long known that BlueSky could replace Twitter. When I joined Twitter in 2021, I soon learned our CEO was terribly unpopular internally, sporting a job approval rating under 40 percent, by far the lowest of any executive at the company. 
 
@@ -139,14 +139,14 @@ So what happens if the BlueSkyVerse really takes off? We might indeed see real c
 But running a modern social media website is expensive. If it grows as big as Twitter, indexing the BlueSkyVerse will become a challenge, same for running modern recommender systems. And if you want ad revenue you need content moderation, which you can’t solve with AI alone—you need humans in the loop, which means you don’t get the kind of economies of scale you’d see with automated systems. What’s more, you often need sensitive user data to do these things well, and you need bespoke solutions to new adversarial tactics you find. So it’s hard to fully rely on an external company for these solutions, as the creators of BlueSky seemed to envision. 
 
 
-**Market Pressure and Responsiveness**
+**The future of the network**
 
 I see a few possibilities if BlueSky gets really big: the first is that BlueSky the app simply dominates this system—they moved first, they understand the system, they can do content moderation, they figure out how to scale up, and they may decide to sell ads. At the same time if BlueSky does become “Twitter 3.0,” there have to be consequences to the fact that I can simply take my posts and follow-graph to a competing service and still be on the same network. 
 
-The second is established tech starts to play—Google jumps in, dedicates a small fraction of the resources it used to fund Google+, indexes the BlueSkyVerse in a day, and boom… has a competitor to Facebook. Maybe Facebook jumps in too, but that’s a tricky proposition because once part of Facebook/Instagram has true account portability what happens to the rest of the company? 
+Or maybe not. Maybe they will realize that the challenges of content moderation favor keeping the network as is, and the BlueSkyVerse will remain closed for a long time. Perhaps forever. 
 
-Of course, an additional outcome that seems likely is a conservative social media front-end provider. Maybe Truth Social integrates with the BlueSkyVerse. It won’t make much money because many in that demographic seem happy with Twitter for now, and there will be substantial brand risk for potential advertisers. 
+But if it does really launch and open up, it seems likely that established tech starts to play—Google jumps in, dedicates a small fraction of the resources it used to fund Google+, indexes the BlueSkyVerse in a day, and boom… has a competitor to Facebook. Maybe Facebook jumps in too, but that’s a tricky proposition because once part of Facebook/Instagram has true account portability what happens to the rest of the company? 
 
-But the bottom line is each of these players ought to cater to their core audience in a way that centralized social media networks cannot do today—they have to please too many competing constituencies, all of whom are locked into a single service. 
+Of course, another outcome that seems likely is a conservative social media front-end provider. Maybe Truth Social integrates with the BlueSkyVerse. It won’t make much money because many in that demographic seem happy with Twitter for now, and there will be substantial brand risk for potential advertisers. 
 
-
+Finally, we might see pure anarchy. In this "race to the bottom" scenario, a set of small, unmoderated, ad-free apps proliferate. Since people don't like ads, they use these apps. The network becomes overrun with spam, NSFW, hate, scams and gifts that come with a lack of moderation. Of course, it's unclear these apps would be tolerated by the app stores, but this is one direction things might generally go. 

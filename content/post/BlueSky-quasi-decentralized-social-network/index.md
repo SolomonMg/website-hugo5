@@ -127,7 +127,7 @@ Setting aside any monetary pressures facing BlueSky for a minute, I suspect they
 Of course, to do anything like what Twitter and Facebook do with their recommender systems—for both follow recommendations and for feed-ranking—will require a lot more resources. For the follow graph, that entails predicting which users are likely to form mutual follow relationships or satisfactory follow-only relationships, which can be done with shortcuts but is ultimately a difficult (graph machine learning) problem. For feed-ranking, that requires predicting what users are likely to interact with what content, which both Twitter and Facebook had entire divisions of engineers and data scientists working on. 
 
 
-Pressures to centralize and monetize the BlueSkyVerse
+**Pressures to centralize and monetize the BlueSkyVerse**
 Venture capitalists and startups in Silicon Valley are always talking about “moats.” If you invest a great deal of resources to build a technology or a new marketplace, what’s to stop a competitor from drinking your milkshake? 
 
 There’s an influential idea among “Web 3.0” circles, which is that Facebook, Instagram, and Twitter are the landlords of castles you can’t leave. That’s not supposed to happen this time—the BlueSkyVerse was designed around account portability and front-end/algorithmic competition. The hope is this will create an ecosystem of small companies doing bits and pieces of what big social media companies do today. 

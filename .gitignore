@@ -9,6 +9,8 @@ __pycache__
 # Hugo
 resources/
 public/
+public/*
+public/webfonts/
 jsconfig.json
 node_modules/
 go.sum

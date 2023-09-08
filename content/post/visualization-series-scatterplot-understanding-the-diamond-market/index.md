@@ -11,7 +11,7 @@ lastmod: 2020-02-02
 featured: true
 draft: false
 
-math: false
+math: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -339,6 +339,8 @@ Here are the results for my recently scraped data set:
 
 Now those are some very nice R-squared values---we are accounting for almost all of the variance in price with the 4Cs.  If we want to know what whether the price for a diamond is reasonable, we can now use this model and exponentiate the result (since we took the log of price).  We need to multiply the result by exp(sigma^2/2), because the our error is no longer zero in expectation:
 
+{{< math >}}
+
 $$ 
 \begin{align*}
 E(log(y) \mid \mathbf{X} = \mathbf{x}) &= E(\mathbf{X}\beta + \epsilon)\\
@@ -349,6 +351,7 @@ E(log(y) \mid \mathbf{X} = \mathbf{x}) &= E(\mathbf{X}\beta + \epsilon)\\
 \end{align*}
 $$
 
+{{< /math >}}
 
 To dig further into that last step, have a look at the [Wikipedia page on log-normal distributed variables](http://en.wikipedia.org/wiki/Log-normal_distribution#Arithmetic_moments).
 Thanks to [Miguel](https://sites.google.com/site/miguelgodinhomatos/) for catching this.

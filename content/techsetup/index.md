@@ -8,3 +8,5 @@ title: Tech Stack
 - Get started using [Hugo - Academic](https://sourcethemes.com/academic/docs/).
 - Quickly snap windows side-by-side with shortcut keys on Mac using [Rectangle](https://github.com/rxhanson/Rectangle).
 - How to setup [shotcut keys](https://www.techrepublic.com/article/how-to-enable-custom-keyboard-shortcuts-in-gmail/) in gmail.
+- [Conda on Singularity](https://sites.google.com/nyu.edu/nyu-hpc/hpc-systems/greene/software/open-ondemand-ood-with-condasingularity?authuser=0&pli=1) (needed for NYU HPC)
+- How to launch [Singularity container remotely in VSCode](https://stackoverflow.com/questions/63604427/launching-a-singularity-container-remotely-using-visual-studio-code)

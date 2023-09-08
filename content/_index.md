@@ -74,6 +74,11 @@ sections:
       text: |-
         ## Radio/Podcasts/Video
 
+
+        - [X, formerly Twitter, to allow paid political advertising again](https://fox2now.com/news/national/x-formerly-twitter-to-allow-paid-political-advertising-again/) **NexStar Media Group** (Local TV stations in major U.S. metro areas)
+
+        - [Meta's Threads, which is basically a Twitter clone, minimizes news and politics](https://www.npr.org/2023/07/13/1187435445/metas-threads-which-is-basically-a-twitter-clone-minimizes-news-and-politics) **NPR's Morning Edition, hosted by Steve Inskeep & Bobby Allyn** 
+
         - [Behold, The Algorithm (or, parts of it, sort of)](https://moderated-content.simplecast.com/episodes/mc-weekly-update-4-3-behold-the-algorithm-or-parts-of-it-sort-of) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
 
         - [What can we learn from a $9 million social media advertising experiment? Differential Turnout and Early Voting](https://moderated-content.simplecast.com/episodes/mc-weekly-update-1-16-looking-at-the-evidence) **Moderated Content, hosted by Alex Stamos & Evelyn Douek** 
@@ -101,6 +106,18 @@ sections:
 
 
         ## Media Clips
+
+        - [What did Twitter’s ‘open source’ algorithm actually reveal? Not a lot.](https://www.engadget.com/what-did-twitters-open-source-algorithm-actually-reveal-not-a-lot-194652809.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAG2PG7lV-A6E94QOqjO595-njWZJCASAqqvXBXbYa1oLWPckv9OLZbLQXNCu5YJxTW7RQkQlGG9WHau6kzWUupUXvvoSj0vzoLijfbT9Q212X2-1JEtBbwYwSXf3xkH_kCTFbGJAUvaQxursj1uv4SabTQcVgOXkXBPp03aoQYIk). **Engadget** 
+
+        - [From emergency alerts to Taylor Swift lyrics: Twitter risks alienating developers](https://www.nbcnews.com/tech/tech-news/twitter-api-musk-developers-rcna69024). **NBC News** 
+
+        - [Twitter users say they haven't paid for their blue checks but still have them](https://www.npr.org/2023/04/03/1167828291/twitter-verification-blue-check-paid). **NPR News** 
+
+        - [More Academics Take Flight From Twitter as Restrictions, Alternatives Grow](https://www.insidehighered.com/news/tech-innovation/2023/07/06/academics-take-flight-twitter-restrictions-alternatives-grow). **Inside Higher Ed** 
+
+        - [Bluesky, championed by Jack Dorsey, was supposed to be Twitter 2.0. Can it succeed?](https://abcnews.go.com/Technology/wireStory/bluesky-championed-jack-dorsey-supposed-twitter-20-succeed-99875527). **ABC News** 
+
+        - [Twitter curbs researcher access, sparking backlash in Washington](https://www.washingtonpost.com/politics/2023/02/03/twitter-curbs-researcher-access-sparking-backlash-washington/). **Washington Post** 
 
         - [How a Digital Ad Strategy That Helped Trump Is Being Used Against Him](https://www.nytimes.com/2020/04/28/us/politics/Facebook-Acronym-advertising.html). **New York Times** 
 

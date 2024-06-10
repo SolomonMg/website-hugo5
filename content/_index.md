@@ -226,7 +226,7 @@ sections:
 
         Messing founded the Data Lab at Pew Research Center, where his team conducted algorithmic audits of [Google Image searches](https://www.pewresearch.org/social-trends/2018/12/17/gender-and-jobs-in-online-image-searches/) and [news photos on Facebook](https://www.journalism.org/2019/05/23/men-appear-twice-as-often-as-women-in-news-photos-on-facebook/), used ML to [study inauthentic and automated behavior on Twitter](https://www.pewresearch.org/internet/2018/04/09/bots-in-the-twittersphere/), and used NLP to understand the role of ideology and [power structures](https://www.pewresearch.org/fact-tank/2017/08/21/highly-ideological-members-of-congress-have-more-facebook-followers-than-moderates-do/) embedded in how members of [congress use social media to communicate](https://www.pewresearch.org/politics/2017/02/23/partisan-conflict-and-congressional-outreach/). 
 
-        Messing received his PhD in Communication from Stanford University in 2013, earning a Masters of Science in Statistics. He serves on the advisory board of Journal of Quantitative Description, served as Assistant Editor of Political Communication, and founded the Journal of International Policy Solutions. 
+        Messing received his PhD in Communication from Stanford University in 2013, earning a Masters of Science in Statistics. He has served on the advisory board of Journal of Quantitative Description, served as the Assistant Editor of Political Communication, and founded the Journal of International Policy Solutions. 
   
         <!-- Some past work using [privacy tech](https://arxiv.org/abs/2002.04049) to [unlock research/ML](pdf/Facebook_DP_URLs_Dataset.pdf) in corporate data warehouses. 
 

@@ -20,7 +20,7 @@ math: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image: 
-   caption: "A simple forecasted map for 2024. Created https://www.270towin.com/maps/WWE2B."
+   caption: "Battleground Projections for 2024."
    focal_point: "Smart"
    preview_only: false
 
@@ -47,9 +47,21 @@ What that means for presidential election forecasts: for each state, estimate th
 
 Here's a cleaner plot showing the actual forecast values in potential 2024 battleground states: 
 
-![](/img/EstStateDemVote.png "A simple forecast for 2024 battleground states.")
+![](/img/EstStateDemVote.png "A simple forecast for 2024 battleground states. Hat tip to [Tom Cunningham](https://tecunningham.github.io) who suggested this plot design.")
 
 I should now point to a link to the data and code: https://github.com/SolomonMg/election_projection_regularized_swing, and thank the [MIT Election Data + Science Lab](https://electionlab.mit.edu) for curating [these](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/42MVDX) [data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2). 
+
+### Electoral Math:
+I'm going to rely on www.270towin.com to translate these projections into an electoral map. A better way to do this might be to come up with conservative estimates of error and simulate a few thousand elections, but I'm not estimating an extremely rigorous Bayesian model nor including enough extant data to really justify a FiveThirtyEight style forecast. 
+
+If you call anything lower than a 3 point margin either way a "tossup," here's what the electoral map looks like: 
+
+![](/img/Map_for_2024_JS_Swing.png "Elecotral map for 2024, lower than a 3% margin is a tossup. Created https://www.270towin.com/maps/WWE2B.")
+
+That looks OK for Biden, but if you really trust this approach, you might want to say anything lower than 2% is a tossup. Then the electoral math looks very bad for Biden:
+
+![](/img/Map_for_2024_JS_margin2Swing.png "Elecotral map for 2024, lower than a 2% margin is a tossup. Created https://www.270towin.com/maps/WWExg.")
+
 
 ### Observation: Polarization and Accuracy
 
@@ -72,6 +84,8 @@ A less reliable trend that’s held since FDR’s time is that incumbent preside
 ### Observation: Accuracy over Previous Election Results
 If it's hard to do better than election returns at t - 1, does this approach actually do better? Yes, by a little. Including all states, these projections have lower mean absolute error (MAE). For some reason these projections miss badly in 2004, and excluding that earliest year I can compute these projections using the MIT data, shows they do in fact do quite a bit better than simply relying on previous presidential election results alone. 
 
+
+![](/img/AllStates_MAE_projections.png "Accuracy over time for projections compared with simply using the previous election. ")
 
 ```r
 > bt_dat %>% group_by(proj_type) %>% summarise(mean(mae))

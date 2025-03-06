@@ -38,7 +38,7 @@ But I also want to start to ask questions about what happened this time around. 
 
 But the second Miami-Dade reported results from the 2020 election, we knew something was probably wrong with the 2020 polls.
 
-{{< tweet id="1325786708022079488" user="stefanjwojcik" >}}
+<!-- {{< tweet id="1325786708022079488" user="stefanjwojcik" >}} -->
 
 As Stefan notes (we worked together at Pew Research Center's Data Labs), the error seems slightly lower in key battleground states, though the polls missed big in WI, perhaps in part due to its horrifically bad voter file data.
 

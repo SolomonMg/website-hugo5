@@ -28,6 +28,11 @@ bio: Sol Messing is Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
+  - Applied Machine Learning & Methodology
+    - [Large language models & ideology](https://arxiv.org/abs/2303.12057)
+    - [Quantifying Narrative Similarity Across Languages](/pdf/Quantifying_Narrative_Similarity_Across_Languages.pdf)
+    - [ML & experiments](https://www.cambridge.org/core/journals/political-analysis/article/abs/estimating-heterogeneous-treatment-effects-and-the-effects-of-heterogeneous-treatments-with-ensemble-methods/C7E3EA00D0AD83429CBE73F4F0C6652C)
+
   - Social Media & Democracy
     - [Polarization & algorithmic bias](https://solomonmg.github.io/pdf/Science-2015-Bakshy-1130-2.pdf)
     - [Advertising & political turnout](https://www.nature.com/articles/s41562-022-01487-4)
@@ -40,10 +45,7 @@ interests:
     - [Image & stereotypes](https://pubmed.ncbi.nlm.nih.gov/27257306/)
     - [Credit-claiming in Congress](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/how-words-and-money-cultivate-a-personal-vote-the-effect-of-legislator-credit-claiming-on-constituent-credit-allocation/7538BBE494CE31274DAE7F9F2E220F04)
   
-  - Applied Machine Learning & Methodology
-    - [Large language models & ideology](https://arxiv.org/abs/2303.12057)
-    - [Quantifying Narrative Similarity Across Languages]()
-    - [ML & experiments](https://www.cambridge.org/core/journals/political-analysis/article/abs/estimating-heterogeneous-treatment-effects-and-the-effects-of-heterogeneous-treatments-with-ensemble-methods/C7E3EA00D0AD83429CBE73F4F0C6652C)
+  
 
 # Education to show in About widget
 education:

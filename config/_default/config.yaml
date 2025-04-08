@@ -74,3 +74,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+ignoreErrors:
+  - error-remote-getjson

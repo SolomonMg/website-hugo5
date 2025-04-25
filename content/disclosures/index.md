@@ -9,8 +9,8 @@ title: Disclosures
 - SM was previously an employee of Pew Research Center.
 - SM was previously an employee of Acronym, including during the implementation of experiments designed to assess ad effectiveness.
 - SM was previously a paid contractor for Morning Consult.
-- SM has actively managed investments which may include SFIs in Apple, AMD, Alfabet (Google), Amazon, Intel, Meta, Microsoft, NVIDIA, Salesforce. SM has sometimes sold (ordinary) Facebook/Meta stock to avoid the appearance of a potential conflict of interest when conducting research relevant to the platform.
-- SM has received scholarly funding from Google (now Alfabet).
+- SM has actively managed investments which may include SFIs in Apple, AMD, Alphabet (Google), Amazon, Intel, Meta, Microsoft, NVIDIA, Salesforce. SM has sometimes sold (ordinary) Facebook/Meta stock to avoid the appearance of a potential conflict of interest when conducting research relevant to the platform.
+- SM has received scholarly funding from Google (now Alphabet).
 - SM is an inventor on patents assigned to Twitter and Law-on-line.
 - SM's travel to or lodging at conferences has been supported by universities and past employers, including Pew Research Center (2015-2018), Facebook (2012-2020), Twitter (2021-2022).
 

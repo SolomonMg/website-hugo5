@@ -44,11 +44,11 @@ And Twitter made it [prohibitively expensive](https://www.wired.com/story/twitte
 
 **Ukraine** There were some [initial reports](https://twitter.com/SolomonMg/status/1642845123531751425?s=20) that Twitter was downranking tweets about Ukraine. I looked at the code and can tell you those claims are wrong---twitter has an audio-only [Clubhouse](https://www.clubhouse.com) clone called Spaces and that code is for that product, not ordinary tweets on hometimeline. What's more, this is likely a label related only to **crisis misinformation**, as per Twitter's [Crisis Misinformation Policy](https://help.twitter.com/en/rules-and-policies/crisis-misinformation). 
 
-{{< tweet id="1642560420392103936" user="SolomonMg" >}}
+{{< x id="1642560420392103936" user="SolomonMg" >}}
 
 **Musk Metrics** One of the most interesting things we learned from the code is that Twitter created an entire suite of metrics about Elon Musk’s personal twitter experience. The code shows they fed those metrics to the experimentation platform (Duck Duck Goose, or DDG), which at least historically has been used to evaluate whether or not to ship products.
 
-{{< tweet id="1641884551189512192" user="wongmjane" >}}
+{{< x id="1641884551189512192" user="wongmjane" >}}
 
 This episode is consistent with reporting that engineers are very concerned about how any features they ship [affect the CEOs personal experience on Twitter](https://www.theverge.com/2023/2/9/23593099/elon-musk-twitter-fires-engineer-declining-reach-ftc-concerns). And other [reporting has suggested that there may have been a Musk centric boost feature](https://arstechnica.com/tech-policy/2023/02/report-musk-had-twitter-engineers-boost-his-tweets-after-biden-got-more-views/) that shipped, and you would want exactly this kind of instrumentation to understand how that worked in practice.
 
@@ -58,11 +58,11 @@ But if you have these ``partisan equality'' stats as part of your ship criteria,
 
 This code was then comically removed via pull requests from Twitter. Because once you delete something on GitHub, it just goes away. Right? 
 
-{{< tweet id="1641960748233662464" user="colin_fraser" >}}
+{{< x id="1641960748233662464" user="colin_fraser" >}}
 
 **Twitter Blue Boost** What’s more, we sorta knew that Twitter Blue users get a boost in feed ranking, but the code make it clear that it could double your score among people who don't follow you, and quadruple it for those who do. 
 
-{{< tweet id="1641878347557883910" user="beeonaposy" >}}
+{{< x id="1641878347557883910" user="beeonaposy" >}}
 
 As [Jonathan Stray pointed out](https://twitter.com/jonathanstray/status/1642200687101501441), if this counts as a paid promotion, the FTC might require Twitter to label your tweets as ads. Now we kind of already knew this from Musks Twitter Blue announcement, but having evidence in the code might cross a different line for the FTC. 
 
@@ -72,7 +72,7 @@ The code itself is there but it’s missing specifics---key parameters, feature 
 
 The most critical thing we learned about Twitter’s ranking algorithm is probably from a readme file that former Facebook Data Scientist [Jeff Allen](https://twitter.com/jeff4llen) found. If we take that at face value, a fav (twitter like) is worth half a retweet. A reply is worth 27 retweets, and a reply with a response from a tweets author is worth a whopping 75 retweets! 
 
-{{< tweet id="1641901988047626241" user="jeff4llen" >}}
+{{< x id="1641901988047626241" user="jeff4llen" >}}
 
 Now it’s not quite that simple---what about when a tweet is first posted and there’s no data? Twitter’s deep learning system (in the heavy ranker) will do some heavy lifting and predict the likelihood of each of these actions based on the tweet author, their network, any initial engagements, the tweet text, and thousands of signals and embeddings. 
 
@@ -82,7 +82,7 @@ Of course, what happens in the first few minutes when a tweet is posted deeply s
 
 Now I should point out that there are some spammy accounts claiming to have found ranking parameters in the code. They’re wrong, those are used to [retrieve tweets from your network for candidate generation only](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/README.md). [Lucene](https://lucene.apache.org) is an open source search tool. 
 
-{{< tweet id="1642563414970060800" user="SolomonMg" >}}
+{{< x id="1642563414970060800" user="SolomonMg" >}}
 
 I should point out however, that some of the ``Earlybird'' code was at one point used in timeline ranking, and it appears that [it may be used in cr-mixer](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/server/src/main/scala/com/twitter/cr_mixer/similarity_engine/EarlybirdTensorflowBasedSimilarityEngine.scala), which is used in candidate generation for [out-of-network tweets](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/README.md).  
 

@@ -9,4 +9,4 @@ featured: false
 publication: ""
 ---
 
-https://www.dropbox.com/s/n0x4iepyj9pzwiw/CH7brief.pdf?raw=true
+/pdf/CH7brief.pdf

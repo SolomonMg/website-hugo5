@@ -28,24 +28,10 @@ bio: Sol Messing is Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
-  - Applied Machine Learning & Methodology
-    - [Large language models & ideology](https://arxiv.org/abs/2303.12057)
-    - [Quantifying Narrative Similarity Across Languages](/pdf/Quantifying_Narrative_Similarity_Across_Languages.pdf)
-    - [ML & experiments](https://www.cambridge.org/core/journals/political-analysis/article/abs/estimating-heterogeneous-treatment-effects-and-the-effects-of-heterogeneous-treatments-with-ensemble-methods/C7E3EA00D0AD83429CBE73F4F0C6652C)
+  - "**Large Language Models** Understanding the influence of political messaging on model output across langauges using evidence from training data, audits, and real-world usage. Modeling the spread of ideas across langauges using LLMs. Creating new measures of ideology using forced-choice games played by people and LLMs."
+  - "**Applied Machine Learning** using machine learning to understand diverse treatment effects."
+  - "**Social Media** Studying interplay between algorithms and social information. Social cues and media selection. Election forecasts and social information. Congressional communication and social media."
 
-  - Social Media & Democracy
-    - [Polarization & algorithmic bias](https://solomonmg.github.io/pdf/Science-2015-Bakshy-1130-2.pdf)
-    - [Advertising & political turnout](https://www.nature.com/articles/s41562-022-01487-4)
-    - [Social news & civic engagement](https://www.dropbox.com/s/nu39148ukbab34r/CH7brief.pdf?raw=true)
-    - [Partisan conflict & congressional outreach](https://www.pewresearch.org/politics/2017/02/23/partisan-conflict-and-congressional-outreach/)
-  
-  - Political Communication & Information
-    - [Election forecasts](https://www.journals.uchicago.edu/doi/abs/10.1086/708682)
-    - [Social cues & media selectivity](https://journals.sagepub.com/doi/10.1177/0093650212466406)
-    - [Image & stereotypes](https://pubmed.ncbi.nlm.nih.gov/27257306/)
-    - [Credit-claiming in Congress](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/how-words-and-money-cultivate-a-personal-vote-the-effect-of-legislator-credit-claiming-on-constituent-credit-allocation/7538BBE494CE31274DAE7F9F2E220F04)
-  
-  
 
 # Education to show in About widget
 education:
@@ -90,6 +76,12 @@ email: ''
 highlight_name: true
 ---
 
-I like big, policy-relevant social science projects related to emerging media & tech. I've spent much of my career leading technical/research teams in industry, while managing to occasionally publish and participate in the public sphere. 
+Working on AI, politics, and policy with CSMaP at NYU. Full [bio below](#mybio). 
 
-Full [bio below](#mybio). 
+**Current Projects**
+
+  - **Propaganda & Politics in Generative AI** Understanding the influence of political messaging on model output across langauges using evidence from training data, audits, and real-world usage.
+  
+  - **New methods with LLMs** Quantifying the spread of ideas across langauges using LLMs. Creating new measures of ideology using forced-choice games played by people and LLMs.
+
+  - **Politics and Short Form Video** Characterizing political content on TikTok. Investigating content moderation for Pro- & Anti- China videos on TikTok and YouTube. Analysis of hate speech on TikTok. A TikTok field experiment.

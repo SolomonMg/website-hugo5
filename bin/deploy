@@ -8,12 +8,12 @@ set -e
 echo "Deploying..."
 
 
-# Run hugo: 
-hugo
+# Run hugo with --cleanDestinationDir so deleted source files don't linger
+hugo --cleanDestinationDir
 
 # now commit to public, which will publish website
 cd public
-git add .
+git add -A
 git commit -m "Build website"
 git push origin master
 cd ..

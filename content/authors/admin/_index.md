@@ -28,9 +28,9 @@ bio: Sol Messing is Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
-  - "**Large Language Models** Understanding the influence of political messaging on model output across langauges using evidence from training data, audits, and real-world usage. Modeling the spread of ideas across langauges using LLMs. Creating new measures of ideology using forced-choice games played by people and LLMs."
-  - "**Applied Machine Learning** using machine learning to understand diverse treatment effects."
-  - "**Social Media** Studying interplay between algorithms and social information. Social cues and media selection. Election forecasts and social information. Congressional communication and social media."
+  - "**AI & Democracy** How alignment decisions, training data, and state media shape LLM output — and the political consequences."
+  - "**LLM Evaluation** Quantifying uncertainty in benchmarks. Error decomposition for multi-turn and agent evaluations."
+  - "**Computational Social Science** Measuring the spread of ideas across languages. Ideology estimation. Political content and moderation on social media platforms."
 
 
 # Education to show in About widget
@@ -76,12 +76,12 @@ email: ''
 highlight_name: true
 ---
 
-Working on AI, politics, and policy with CSMaP at NYU. Full [bio below](#mybio). 
+Studying how AI systems interact with politics and democracy at NYU's [Center for Social Media, AI, and Politics](https://csmapnyu.org/). Full [bio below](#mybio).
 
 **Current Projects**
 
-  - **Propaganda & Politics in Generative AI** Understanding the influence of political messaging on model output across langauges using evidence from training data, audits, and real-world usage.
-  
-  - **New methods with LLMs** Quantifying the spread of ideas across langauges using LLMs. Creating new measures of ideology using forced-choice games played by people and LLMs.
+  - **AI & Democracy** What LLMs refuse and the political consequences. How state media in training data shapes model output. Alignment choices and democratic outcomes.
 
-  - **Politics and Short Form Video** Characterizing political content on TikTok. Investigating content moderation for Pro- & Anti- China videos on TikTok and YouTube. Analysis of hate speech on TikTok. A TikTok field experiment.
+  - **Methods** Quantifying uncertainty in LLM benchmarks; error decomposition for multi-turn and agent evaluations. Measuring the spread of ideas across languages using LLMs. Estimating ideology using forced-choice frameworks.
+
+  - **Politics & TikTok** Characterizing political content on TikTok. Investigating content moderation bias for pro- and anti-China videos on TikTok and YouTube. Hate speech on TikTok.

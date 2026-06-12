@@ -14,17 +14,21 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Associate Professor
+role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Google DeepMind
+    url: https://deepmind.google
   - name: New York University
     url: https://csmapnyu.org/
-  - name: Georgetown University (Affiliate)
-    url: https://mccourt.georgetown.edu/
+  - name: ML Commons
+    url: https://mlcommons.org
+  # - name: Georgetown University (Affiliate)
+  #   url: https://mccourt.georgetown.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Sol Messing is Research Associate Professor at New York University
+bio: Sol Messing is Researcher at Google DeepMind and Research Associate Professor at New York University
 
 # Interests to show in About widget
 interests:
@@ -76,12 +80,14 @@ email: ''
 highlight_name: true
 ---
 
-Studying how AI systems interact with politics and democracy at NYU's [Center for Social Media, AI, and Politics](https://csmapnyu.org/). Full [bio below](#mybio).
+Working on evaluation science & socioeconomic impacts of AI systems. Full [bio below](#mybio).
 
 **Current Projects**
 
-  - **AI & Democracy** What LLMs refuse and the political consequences. How state media in training data shapes model output. Alignment choices and democratic outcomes.
+  - **Measurement** - hidden [error in LLM evals & benchmarks](https://arxiv.org/abs/2604.11581) and how to reduce it. Measuring the [spread of ideas across languages](publication/waightmessing2025/) using fine-tuned LLMs. Estimating [ideology](https://arxiv.org/abs/2303.12057) using forced-choice LLM-as-judge frameworks.
 
-  - **Methods** Quantifying uncertainty in LLM benchmarks; error decomposition for multi-turn and agent evaluations. Measuring the spread of ideas across languages using LLMs. Estimating ideology using forced-choice frameworks.
+  - **AI & Democracy** - What LLMs refuse and the political consequences. How [state media in training data shapes model output](https://state-media-influence-llm.github.io). Alignment choices and democratic outcomes.
 
-  - **Politics & TikTok** Characterizing political content on TikTok. Investigating content moderation bias for pro- and anti-China videos on TikTok and YouTube. Hate speech on TikTok.
+  - **Economic impacts** - simulating sophisticated real-world economic tasks to deepen our understanding of [model capabilities related to the labor market impacts](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/#:~:text=Evaluating%20economic%20systems).
+  
+  <!-- - **Politics & TikTok** Characterizing political content on TikTok. Investigating content moderation bias for pro- and anti-China videos on TikTok and YouTube. Hate speech on TikTok. -->

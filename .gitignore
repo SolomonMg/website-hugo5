@@ -1,17 +1,28 @@
-# standard
+# macOS / editors
 .DS_Store
-__pycache__
-
-
-# IDEs
 .idea/
+__pycache__/
+node_modules/
+jsconfig.json
 
-# Hugo
+# Quarto
+/_site/
+/.quarto/
+
+# Hugo build caches (kept out of the archived source)
 resources/
 public/
 public/*
-public/webfonts/
-jsconfig.json
-node_modules/
 go.sum
 .hugo_build.lock
+
+# LaTeX build artifacts (keep the .pdf, drop the cruft)
+pdf/CV/*.aux
+pdf/CV/*.log
+pdf/CV/*.out
+pdf/CV/*.fls
+pdf/CV/*.fdb_latexmk
+pdf/CV/*.synctex.gz
+pdf/CV/missfont.log
+
+**/*.quarto_ipynb

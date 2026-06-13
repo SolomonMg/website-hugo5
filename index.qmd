@@ -1,0 +1,70 @@
+---
+title: "Sol Messing"
+pagetitle: "Sol Messing"
+about:
+  template: trestles
+  image: images/avatar.jpeg
+  image-shape: rounded
+  image-width: 16em
+  links:
+    - icon: envelope
+      text: Email
+      href: contact.qmd
+    - icon: twitter-x
+      text: X
+      href: https://twitter.com/SolomonMg
+    - icon: github
+      text: GitHub
+      href: https://github.com/solomonmg
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=to63kiAAAAAJ&hl=en
+    - icon: file-earmark-text
+      text: CV
+      href: pdf/CV/CV.pdf
+listing:
+  - id: recent-posts
+    contents: blog
+    type: default
+    max-items: 3
+    sort: "date desc"
+    fields: [date, title, description]
+  - id: home-projects
+    contents: projects
+    type: grid
+    max-items: 4
+    grid-columns: 2
+    sort: "date desc"
+    image-height: "160px"
+    fields: [image, title, description]
+---
+
+**Research Scientist, [Google DeepMind](https://deepmind.google)** · **Research Associate Professor, [NYU](https://csmapnyu.org/)** · **[ML Commons](https://mlcommons.org)**
+
+Working on evaluation science and the socioeconomic impacts of AI systems. Full [bio here](bio.qmd).
+
+**Current Projects**
+
+- **Measurement** — hidden [error in LLM evals & benchmarks](https://arxiv.org/abs/2604.11581) and how to reduce it. Measuring the [spread of ideas across languages](/publications/waightmessing2025/) using fine-tuned LLMs. Estimating [ideology](https://arxiv.org/abs/2303.12057) using forced-choice LLM-as-judge frameworks.
+- **AI & Democracy** — what LLMs refuse and the political consequences. How [state media in training data shapes model output](https://state-media-influence-llm.github.io). Alignment choices and democratic outcomes.
+- **Economic impacts** — simulating real-world economic tasks to understand [model capabilities related to labor-market impacts](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/).
+
+## Featured Publications
+
+{{< include _includes/featured_pubs.md >}}
+
+[All publications →](publications.qmd){.btn-paper}
+
+## Recent Posts
+
+:::{#recent-posts}
+:::
+
+[All posts →](blog.qmd){.btn-paper}
+
+## Projects
+
+:::{#home-projects}
+:::
+
+[All projects →](projects.qmd){.btn-paper}

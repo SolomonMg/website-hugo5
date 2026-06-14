@@ -10,7 +10,9 @@ listing:
 ---
 
 ```{=html}
-<div class="home-banner" role="img" aria-label="Sol Messing mountain biking in the Dolomites" style="background-image:url('img/banner.jpg')"></div>
+<a class="home-banner-link" href="https://www.instagram.com/dr_sol_mtb/" target="_blank" rel="noopener" title="MTB videos on Instagram (@dr_sol_mtb)" aria-label="Mountain biking videos on Instagram (@dr_sol_mtb)">
+  <div class="home-banner" role="img" aria-label="Sol Messing mountain biking in the Dolomites" style="background-image:url('img/banner.jpg')"></div>
+</a>
 <header class="home-hero home-hero--banner">
   <img class="home-avatar" src="images/profile.jpg" alt="Sol Messing">
   <div class="home-id">

@@ -22,7 +22,7 @@ project:
 website:
   title: "Sol Messing"
   description: "Sol Messing — Research Scientist at Google DeepMind and Research Associate Professor at NYU. AI & democracy, LLM evaluation, computational social science."
-  site-url: "https://solomonmg.github.io/website-hugo5/"
+  site-url: "https://solomonmg.github.io/"
   google-analytics: "G-9XTZZP2CJ8"
   favicon: images/profile.jpg
   open-graph: true

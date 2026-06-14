@@ -1,70 +1,55 @@
 ---
-title: "Sol Messing"
-pagetitle: "Sol Messing"
-about:
-  template: trestles
-  image: images/avatar.jpeg
-  image-shape: rounded
-  image-width: 16em
-  links:
-    - icon: envelope
-      text: Email
-      href: contact.qmd
-    - icon: twitter-x
-      text: X
-      href: https://twitter.com/SolomonMg
-    - icon: github
-      text: GitHub
-      href: https://github.com/solomonmg
-    - icon: mortarboard-fill
-      text: Scholar
-      href: https://scholar.google.com/citations?user=to63kiAAAAAJ&hl=en
-    - icon: file-earmark-text
-      text: CV
-      href: pdf/CV/CV.pdf
+pagetitle: "Sol Messing — Research Scientist"
+description: "Sol Messing — Research Scientist at Google DeepMind and Research Associate Professor at NYU. AI & democracy, LLM evaluation, computational social science."
 listing:
-  - id: recent-posts
+  - id: all-posts
     contents: blog
     type: default
-    max-items: 3
     sort: "date desc"
-    fields: [date, title, description]
-  - id: home-projects
-    contents: projects
-    type: grid
-    max-items: 4
-    grid-columns: 2
-    sort: "date desc"
-    image-height: "160px"
-    fields: [image, title, description]
+    fields: [image, date, title, description]
 ---
 
-**Research Scientist, [Google DeepMind](https://deepmind.google)** · **Research Associate Professor, [NYU](https://csmapnyu.org/)** · **[ML Commons](https://mlcommons.org)**
+```{=html}
+<div class="home-banner" role="img" aria-label="Sol Messing mountain biking in the Dolomites" style="background-image:url('img/banner.jpg')"></div>
+<header class="home-hero home-hero--banner">
+  <img class="home-avatar" src="images/profile.jpg" alt="Sol Messing">
+  <div class="home-id">
+    <div class="home-name" role="heading" aria-level="1">Sol Messing</div>
+    <div class="home-affil">
+      <div>Research Scientist, <a href="https://deepmind.google">Google DeepMind</a></div>
+      <div>Research Associate Professor, <a href="https://csmapnyu.org/">New York University</a></div>
+      <div><a href="https://mlcommons.org">ML Commons</a></div>
+    </div>
+    <p class="home-tagline">Working on evaluation science and the socioeconomic impacts of AI systems.</p>
+    <nav class="home-links">
+      <a href="contact.html"><i class="bi bi-envelope"></i> Email</a>
+      <a href="https://scholar.google.com/citations?user=to63kiAAAAAJ&hl=en"><i class="bi bi-mortarboard-fill"></i> Scholar</a>
+      <a href="https://github.com/solomonmg"><i class="bi bi-github"></i> GitHub</a>
+      <a href="https://twitter.com/SolomonMg"><i class="bi bi-twitter-x"></i> X</a>
+      <a href="pdf/CV/CV.pdf"><i class="bi bi-file-earmark-text"></i> CV</a>
+      <a href="bio.html"><i class="bi bi-person"></i> Full bio</a>
+    </nav>
+  </div>
+</header>
+```
 
-Working on evaluation science and the socioeconomic impacts of AI systems. Full [bio here](bio.qmd).
+```{=html}
+<div class="home-section"><h2>Current work</h2></div>
+```
 
-**Current Projects**
+- **Measurement** — hidden [error in LLM evals &amp; benchmarks](https://arxiv.org/abs/2604.11581) and how to reduce it. Measuring the [spread of ideas across languages](/publications/waightmessing2025/) with fine-tuned LLMs; estimating [ideology](https://arxiv.org/abs/2303.12057) via forced-choice LLM-as-judge.
+- **AI &amp; Democracy** — what LLMs refuse and the political consequences. How [state media in training data shapes model output](https://state-media-influence-llm.github.io). Alignment choices and democratic outcomes.
+- **Economic impacts** — simulating real-world economic tasks to understand [model capabilities and labor-market impacts](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/).
 
-- **Measurement** — hidden [error in LLM evals & benchmarks](https://arxiv.org/abs/2604.11581) and how to reduce it. Measuring the [spread of ideas across languages](/publications/waightmessing2025/) using fine-tuned LLMs. Estimating [ideology](https://arxiv.org/abs/2303.12057) using forced-choice LLM-as-judge frameworks.
-- **AI & Democracy** — what LLMs refuse and the political consequences. How [state media in training data shapes model output](https://state-media-influence-llm.github.io). Alignment choices and democratic outcomes.
-- **Economic impacts** — simulating real-world economic tasks to understand [model capabilities related to labor-market impacts](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/).
-
-## Featured Publications
+```{=html}
+<div class="home-section"><h2>Featured Publications</h2><a class="more" href="publications.html">All publications →</a></div>
+```
 
 {{< include _includes/featured_pubs.md >}}
 
-[All publications →](publications.qmd){.btn-paper}
+```{=html}
+<div class="home-section"><h2>Writing</h2><a class="more" href="blog.html">Browse &amp; filter →</a></div>
+```
 
-## Recent Posts
-
-:::{#recent-posts}
+:::{#all-posts}
 :::
-
-[All posts →](blog.qmd){.btn-paper}
-
-## Projects
-
-:::{#home-projects}
-:::
-
-[All projects →](projects.qmd){.btn-paper}

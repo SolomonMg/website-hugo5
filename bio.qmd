@@ -20,16 +20,3 @@ Messing received his PhD in Communication from Stanford University in 2013, earn
 
 Accidentally fell into data science in 2006 when my team couldn't get budget for Stata and so got paid for 2 years to learn R. 
  -->
-
-## Research Interests
-
-- **AI & Democracy** — how alignment decisions, training data, and state media shape LLM output, and the political consequences.
-- **LLM Evaluation** — quantifying uncertainty in benchmarks; error decomposition for multi-turn and agent evaluations.
-- **Computational Social Science** — measuring the spread of ideas across languages; ideology estimation; political content and moderation on social media platforms.
-
-## Education
-
-- **PhD, Political Communication** — Stanford University
-- **MSc, Statistics** — Stanford University
-- **International MBA (Policy emphasis)** — UC San Diego (GPS)
-- **BA, Political Science** — UC Santa Barbara

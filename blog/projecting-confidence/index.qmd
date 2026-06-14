@@ -1,9 +1,12 @@
 ---
 title: Projecting Confidence
 date: '2020-05-18'
+author:
+- Sol Messing
 description: How the Probabilistic Horse Race Demobilizes the Public
 aliases:
 - /project/Projecting_Confidence/
+- /projects/Projecting_Confidence/
 image: featured.jpg
 ---
 

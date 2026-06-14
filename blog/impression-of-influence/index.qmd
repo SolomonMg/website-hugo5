@@ -1,9 +1,12 @@
 ---
 title: Impression of Influence
 date: '2020-05-17'
+author:
+- Sol Messing
 description: A book on how Members of Congress use Credit Claiming
 aliases:
 - /project/Impression_of_influence/
+- /projects/Impression_of_influence/
 image: featured.png
 ---
 

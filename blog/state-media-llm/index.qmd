@@ -1,9 +1,12 @@
 ---
 title: Interactive Web Replication & Update of State Media Influence on LLMs
 date: '2026-05-24'
+author:
+- Sol Messing
 description: Increasing research accessibility/reach with udpated models and analyses, text interactives and new analyses.
 aliases:
 - /project/state_media_llm/
+- /projects/state_media_llm/
 image: featured.png
 ---
 

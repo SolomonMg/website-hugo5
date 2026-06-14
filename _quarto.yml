@@ -11,7 +11,6 @@ project:
     - "index.qmd"
     - "publications.qmd"
     - "blog.qmd"
-    - "projects.qmd"
     - "media.qmd"
     - "bio.qmd"
     - "contact.qmd"
@@ -19,14 +18,13 @@ project:
     - "techsetup.qmd"
     - "publications/*/index.qmd"
     - "blog/*/index.qmd"
-    - "projects/*/index.qmd"
 
 website:
   title: "Sol Messing"
   description: "Sol Messing — Research Scientist at Google DeepMind and Research Associate Professor at NYU. AI & democracy, LLM evaluation, computational social science."
   site-url: "https://solomonmg.github.io/website-hugo5/"
   google-analytics: "G-9XTZZP2CJ8"
-  favicon: images/avatar.jpeg
+  favicon: images/profile.jpg
   open-graph: true
   twitter-card:
     creator: "@SolomonMg"
@@ -40,8 +38,6 @@ website:
         href: publications.qmd
       - text: "Blog"
         href: blog.qmd
-      - text: "Projects"
-        href: projects.qmd
       - text: "Media"
         href: media.qmd
       - text: "Bio"

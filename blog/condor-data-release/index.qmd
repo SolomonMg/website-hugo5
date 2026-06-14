@@ -1,9 +1,12 @@
 ---
 title: Facebook Condor URLs Data Release
 date: '2020-05-18'
+author:
+- Sol Messing
 description: Largest ever social science data set, released under differential privacy
 aliases:
 - /project/condor_data_release/
+- /projects/condor_data_release/
 image: featured.png
 ---
 

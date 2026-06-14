@@ -278,7 +278,7 @@ def write_publications_index(pubs: list[dict]):
 def write_featured_include(pubs: list[dict]):
     INCLUDES.mkdir(exist_ok=True)
     feat = [p for p in pubs if p["featured"]]
-    feat = sorted(feat, key=lambda p: (p["date"], p["title"]), reverse=True)
+    feat = sorted(feat, key=lambda p: (p["date"], p["title"]), reverse=True)[:4]
     lines = []
     for p in feat:
         lines.append(citation_row(p))
@@ -327,15 +327,16 @@ def migrate_posts():
 
 # ---------------------------------------------------------------- projects
 def migrate_projects():
-    if OUT_PROJ.exists():
-        shutil.rmtree(OUT_PROJ)
+    """Projects are consolidated into the blog as posts tagged 'Project'.
+    Old /project/<folder>/ and /projects/<folder>/ URLs are kept as aliases.
+    Runs after migrate_posts(), writing into the existing blog/ tree."""
     for folder in sorted((SRC / "project").iterdir()):
         idx = folder / "index.md"
         if not idx.exists():
             continue
         fm, body = read_hugo(idx)
-        slug = folder.name
-        dest = OUT_PROJ / slug
+        slug = slugify(folder.name)
+        dest = OUT_BLOG / slug
         dest.mkdir(parents=True, exist_ok=True)
         img = find_image(folder)
         if img:
@@ -348,8 +349,9 @@ def migrate_projects():
         out_fm = {
             "title": fm.get("title", "").strip(),
             "date": iso_date(fm),
+            "author": ["Sol Messing"],
             "description": (fm.get("summary") or "").strip(),
-            "aliases": [f"/project/{slug}/"],
+            "aliases": [f"/project/{folder.name}/", f"/projects/{folder.name}/"],
         }
         if img:
             out_fm["image"] = img
@@ -369,8 +371,7 @@ def main():
     migrate_projects()
     nf = sum(1 for p in pubs if p["featured"])
     print(f"publications: {len(pubs)} ({nf} featured)")
-    print(f"posts:        {len(list(OUT_BLOG.glob('*/index.qmd')))}")
-    print(f"projects:     {len(list(OUT_PROJ.glob('*/index.qmd')))}")
+    print(f"blog posts:   {len(list(OUT_BLOG.glob('*/index.qmd')))} (incl. projects tagged 'Project')")
 
 
 if __name__ == "__main__":

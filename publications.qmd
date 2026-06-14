@@ -21,10 +21,34 @@ See also my [Google Scholar profile](https://scholar.google.com/citations?user=t
 <h2 class="pub-year">2025</h2>
 
 ::: {.pub-item}
+**[Web scraping for research: Legal, ethical, institutional, and scientific considerations](/publications/brown-2025-web-scraping/)**  
+<span class="pub-authors">Megan A. Brown, Andrew Gruen, Gabe Maldoff, **Solomon Messing**, Zeve Sanderson, Michael Zimmer</span>  
+<span class="pub-venue">*Big Data & Society*, 2025</span>.  
+[PDF](https://journals.sagepub.com/doi/pdf/10.1177/20539517251381686){.btn-paper} [DOI](https://doi.org/10.1177/20539517251381686){.btn-paper}
+:::
+
+::: {.pub-item}
 **[Quantifying Narrative Similarity Across Languages](/publications/waightmessing2025/)**  
 <span class="pub-authors">Hannah Waight, **Solomon Messing**, Anton Shirikov, Margaret E. Roberts, Jonathan Nagler, Jason Greenfield, Megan A. Brown, Kevin Aslett, Joshua A. Tucker</span>  
 <span class="pub-venue">*Sociological Methods & Research*, 2025</span>.  
 [PDF](/pdf/Quantifying_Narrative_Similarity_Across_Languages.pdf){.btn-paper} [DOI](https://doi.org/10.1177/00491241251340080){.btn-paper}
+:::
+
+
+<h2 class="pub-year">2024</h2>
+
+::: {.pub-item}
+**[Concept-Guided Chain-of-Thought Prompting for Pairwise Comparison Scoring of Texts with Large Language Models](/publications/wu-2024-concept-guided-cot/)**  
+<span class="pub-authors">Patrick Y. Wu, Jonathan Nagler, Joshua A. Tucker, **Solomon Messing**</span>  
+<span class="pub-venue">*2024 IEEE International Conference on Big Data (BigData)*, 2024</span>.  
+[PDF](https://arxiv.org/pdf/2310.12049){.btn-paper}
+:::
+
+::: {.pub-item}
+**[Digital town square? Nextdoor's offline contexts and online discourse](/publications/brown-2024-nextdoor/)**  
+<span class="pub-authors">Megan A. Brown, Zeve Sanderson, Sarah Graham, Minjoo Kim, Joshua A. Tucker, **Solomon Messing**</span>  
+<span class="pub-venue">*Journal of Quantitative Description: Digital Media*, 2024</span>.  
+[PDF](https://journalqd.org/article/download/5891/4518){.btn-paper}
 :::
 
 

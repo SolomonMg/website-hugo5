@@ -3,7 +3,7 @@ title: Interactive Web Replication & Update of State Media Influence on LLMs
 date: '2026-05-24'
 author:
 - Sol Messing
-description: Increasing research accessibility/reach with udpated models and analyses, text interactives and new analyses.
+description: Increasing research accessibility/reach with updated models and analyses, text interactives and new analyses.
 aliases:
 - /project/state_media_llm/
 - /projects/state_media_llm/
@@ -28,13 +28,13 @@ In fact, Josh and I recently wrote a [piece in Brookings](https://www.brookings.
 
 So I built an [interactive companion site](https://state-media-influence-llm.github.io) that replicates the core studies from the paper on current-generation models. The whole team gave feedback and what came out was pretty cool. It looked great and a few new and important findings emerged from the effort. 
 
-By and large, [the core findings hold](https://state-media-influence-llm.github.io/global.html). In 38 countries, where more than 70% of langauge speakers reside, there's a strong negative correlation between press freedom and pro-government LLM valence (-0.89) relative to English in current-generation models. Every current-generation model still produces more pro-government answers in Chinese than in English about Chinese leaders and institutions. Memorization rates for state-coordinated media phrases continue to be at or above rates for general web text. 
+By and large, [the core findings hold](https://state-media-influence-llm.github.io/global.html). In 38 countries, where more than 70% of language speakers reside, there's a strong negative correlation between press freedom and pro-government LLM valence (-0.89) relative to English in current-generation models. Every current-generation model still produces more pro-government answers in Chinese than in English about Chinese leaders and institutions. Memorization rates for state-coordinated media phrases continue to be at or above rates for general web text. 
 
 Two years of capability improvements and safety work have not changed the underlying issue.
 
 **The highlights**
 
-- **[Memorization effects are far larger for new models](https://state-media-influence-llm.github.io/memorization.html).** As expected, newer larger models memorize state media-aligned text a *much* higher rates than do the models we tested in the paper. We prompted models with the first half of 2,000 distinctive phrases and measured how often each model completes the second half of the phrase nearly perfectly. Half of the phrases are from Chinese state media talking points (red) and half from general Chinese web text (green/blue).
+- **[Memorization effects are far larger for new models](https://state-media-influence-llm.github.io/memorization.html).** As expected, newer larger models memorize state media-aligned text at *much* higher rates than do the models we tested in the paper. We prompted models with the first half of 2,000 distinctive phrases and measured how often each model completes the second half of the phrase nearly perfectly. Half of the phrases are from Chinese state media talking points (red) and half from general Chinese web text (green/blue).
 
   ![Memorization rates across paper-era and current-generation LLMs. State-coordinated media phrases in red, general CulturaX web text in green. Newer models complete the held-out half of each phrase at substantially higher rates than the paper-era models.](memorization_rates.png) 
 

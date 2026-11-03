@@ -1,5 +1,5 @@
 ---
-title: What can we learn from 'The Algorithm,' Twitter's partial open-sourcing of it's feed-ranking recommendation system?
+title: What can we learn from 'The Algorithm,' Twitter's partial open-sourcing of its feed-ranking recommendation system?
 date: '2023-04-03'
 author:
 - Sol Messing

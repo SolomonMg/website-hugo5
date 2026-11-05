@@ -18,3 +18,15 @@ Posts: thoughts-on-election-2020, bluesky-quasi-decentralized-social-network, tw
 - [ ] Next: turn Twitter threads into posts
 
 ## Review
+
+# Deploy website-hugo5 to live site (2026-11-05)
+
+Decision: website-hugo5 is the single source; its workflow publishes to SolomonMg/SolomonMg.github.io.
+
+- [x] Port June live-only fixes (ML Commons Affiliate label, mobile banner crop) (dfd9615)
+- [x] Substack link in navbar + CV header; rebuild CV.pdf (9d8b9ba)
+- [ ] Rewrite publish.yml: render, push _site to SolomonMg.github.io gh-pages via deploy key
+- [ ] Create write deploy key on SolomonMg.github.io; private half as ACTIONS_DEPLOY_KEY secret on website-hugo5; delete local key files
+- [ ] Fast-forward main to quarto-migration, push; confirm workflow pushes gh-pages
+- [ ] Switch SolomonMg.github.io Pages source to gh-pages branch; disable its own publish workflow
+- [ ] Verify live: CV mentions DeepMind + Substack, navbar Substack icon, typo fixes

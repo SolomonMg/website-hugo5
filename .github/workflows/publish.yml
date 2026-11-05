@@ -1,5 +1,10 @@
 name: Publish Quarto site
 
+# Renders this repo and pushes the built site to the gh-pages branch of
+# SolomonMg/SolomonMg.github.io, which serves https://solomonmg.github.io/.
+# Auth: write deploy key on SolomonMg.github.io; private half stored here as
+# the ACTIONS_DEPLOY_KEY secret.
+
 on:
   push:
     branches: [main]
@@ -7,8 +12,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # Allow one concurrent deployment; don't cancel an in-progress one.
 concurrency:
@@ -16,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -28,18 +31,10 @@ jobs:
       - name: Render site
         run: quarto render
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Push to SolomonMg.github.io gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: SolomonMg/SolomonMg.github.io
+          publish_branch: gh-pages
+          publish_dir: ./_site

@@ -57,6 +57,10 @@ website:
         href: https://twitter.com/SolomonMg
         target: _blank
         aria-label: X
+      - icon: substack
+        href: https://solmessing.substack.com
+        target: _blank
+        aria-label: Substack
       - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=to63kiAAAAAJ&hl=en
         target: _blank

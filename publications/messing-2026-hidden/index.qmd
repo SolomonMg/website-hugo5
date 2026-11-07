@@ -10,7 +10,7 @@ description: Advances in Neural Information Processing Systems (NeurIPS), 2026
 
 **Solomon Messing** (2026). Hidden Measurement Error in LLM Pipelines Distorts Annotation, Evaluation, and Benchmarking. *Advances in Neural Information Processing Systems (NeurIPS)*.
 
-[PDF](https://arxiv.org/pdf/2604.11581){.btn-paper} [SI Appendix](/pdf/totalevalerror_si.pdf){.btn-paper} [arXiv](https://arxiv.org/abs/2604.11581){.btn-paper}
+[PDF](https://arxiv.org/pdf/2604.11581){.btn-paper} [SI Appendix](/pdf/totalevalerror_si.pdf){.btn-paper} [arXiv](https://arxiv.org/abs/2604.11581){.btn-paper} [Data](https://doi.org/10.7910/DVN/UXNAM7){.btn-paper}
 
 ## Abstract
 

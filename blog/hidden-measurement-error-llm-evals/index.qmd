@@ -1,9 +1,9 @@
 ---
-title: "LLM Evals Are Less Certain Than They Look"
+title: "Hidden error in LLM pipelines leads to benchmark hacking and undercoverage"
 date: '2026-11-17'
 author:
 - Sol Messing
-description: "LLM evals and annotations ignore noise sources, so CIs have poor coverage and benchmark hacking is easier. My NeurIPS paper introduces the Total Evaluation Error (TEE) framework to properly measure and reduce this noise."
+description: "LLM evals and annotations ignore noise sources, making benchmark hacking easier and leading to undercoverage. The Total Evaluation Error (TEE) framework helps us better measure and reduce this noise."
 image: featured.png
 draft: false
 fig-align: center
